@@ -97,9 +97,7 @@ fn main() {
     }
 
     // Address
-    let mut address;
-    loop {
-        address = String::new();
+    let mut  address = String::new();
 
         println!("Enter your address: ");
         io::stdin()
@@ -107,8 +105,6 @@ fn main() {
             .expect("Failed to read address.");
 
         println!("Your address is: {}", address.trim());
-        break;
-    }
 
     // Email
     let mut email;
