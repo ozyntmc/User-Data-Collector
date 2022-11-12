@@ -97,7 +97,7 @@ fn main() {
     }
 
     // Address
-    let mut  address = String::new();
+    let mut address = String::new();
 
         println!("Enter your address: ");
         io::stdin()
